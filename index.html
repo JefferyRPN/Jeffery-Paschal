@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jeffery Orgu — Portfolio</title>
+<meta name="description" content="Jeffery Orgu — Frontend Developer, Social Media Manager, and QA. Based in Lagos, Nigeria." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="favicon.png" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="tuning-overlay" aria-hidden="true">
+  <div class="tuning-label" id="tuning-label">Frontend Developer</div>
+  <div class="tuning-bar"><span class="tuning-bar-fill"></span></div>
+</div>
+
+<div id="app" class="app" hidden>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="identity">
+        <p class="name">Jeffery Orgu</p>
+        <p class="tagline" id="tagline"></p>
+      </div>
+
+      <nav class="role-switcher" aria-label="Portfolio role">
+        <div class="tablist" role="tablist" aria-label="Choose a role" id="role-tablist">
+          <!-- tabs injected by app.js -->
+        </div>
+      </nav>
+
+      <div class="channel-monitor" aria-hidden="true">
+        <img id="channel-monitor-img" src="" alt="" decoding="async" />
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- role panels injected by app.js -->
+  </main>
+
+  <footer class="site-footer" id="site-footer">
+    <!-- shared footer injected by app.js -->
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
